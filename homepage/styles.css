@@ -1,0 +1,117 @@
+
+#pg-head{
+    color: black;
+    padding:7px;
+    font-family: sans-serif;
+    text-align: left;
+    opacity: 1;
+    margin: 10px;
+    text-decoration: bold;
+
+}
+.latin{
+    font-family: sans-serif;
+    text-decoration: italic;
+    color: black;
+    text-align:left;
+    opacity: .6;
+    margin: 5px;
+    text-indent:50px;
+}
+
+#c{
+text-align: center;
+
+}
+
+.text-title{
+    text-align: left;
+    color:green;
+    margin: 5%;
+    opacity: 1;
+    text-decoration: italic;
+
+}
+
+.text-title2{
+    text-align: right;
+    color:grey;
+    margin: 5%;
+    opacity: 1;
+    text-decoration: italic;
+
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    padding:0;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #00960c;
+    position:absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+}
+
+
+/*green top site name >>>
+
+/* Aligning container in center*/
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 100%;
+margin: auto;
+    color: #fff;
+}
+
+/* General styling to text and
+transition of 2s*/
+.text {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 3rem;
+    transition: 2s ease;
+font-family: arabian;
+}
+
+/* Giving shapes to text using clip-path*/
+.text1 {
+    clip-path: polygon(0 0, 100% 0,
+            100% 100%, 50% 0, 0 100%);
+}
+
+.text2 {
+    clip-path: polygon(0 100%, 50% 0,
+            100% 100%, 100% 100%, 0 100%);
+}
+
+/* transforming box 1 position on hover */
+.box:hover .text1 {
+    transform: translateY(-10px);
+}
+
+/* transforming box 2 position on hover */
+.box:hover .text2 {
+    transform: translateY(10px);
+}

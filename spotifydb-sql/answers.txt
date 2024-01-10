@@ -1,0 +1,5 @@
+
+Question 1:
+        Based on the current listing of songs, I would infer that their aura is "Orange" (rebelious and they have a need for energy boosting music).
+Question 2:
+        people dont pick their music based on dancebiilty and valence, instead what would be better is looking at the most frequent genre, average tempo, and streaming time on average. These factors would allow better accuracy into the preferences of the user. Genre dictates a persons preference in musical sound, tempo allows for prefered energy state when listening to music, and average streaming time dictates their saturation of music intake.
